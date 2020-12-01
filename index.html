@@ -53,12 +53,18 @@
             </ion-col>
           </ion-row>
           <ion-row>
-            <ion-col>
+            <ion-col size-md="6" offset-md="3">
               <ion-list id="expenses-list"></ion-list>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size="6" offset-md="3">
+              <p padding>Total Expenses: <span id="total-expenses"></span></p>
             </ion-col>
           </ion-row>
         </ion-grid>
       </ion-content>
+      <ion-alert-controller></ion-alert-controller>
     </ion-app>
     <script src="app.js"></script>
   </body>
